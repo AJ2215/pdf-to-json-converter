@@ -1,0 +1,13 @@
+# PDF 轉 JSON 工具所需的 Python 套件
+
+# Web 介面
+streamlit>=1.28.0
+
+# PDF 處理套件
+PyPDF2>=3.0.1         # 基本的 PDF 文字提取
+PyMuPDF>=1.23.0       # 高品質的 PDF 處理，支援圖片提取
+pdfplumber>=0.9.0     # 支援表格提取的 PDF 處理
+
+# 可選依賴項 (用於進階功能)
+# Pillow>=10.0.0      # 圖片處理
+# pandas>=2.0.0       # 表格數據處理
